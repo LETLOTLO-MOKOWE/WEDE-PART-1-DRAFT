@@ -65,12 +65,14 @@ This project is a static website for **FreshMart Local Grocery Store**. It provi
   - `media/` (videos)
   - `fonts/` (fonts, if used)
 ## screenshots
-  ![image]
-Screenshot 2026-06-18 110755.png=@Screenshot 2026-06-18 110755,0
-Screenshot 2026-06-18 111509.png=@Screenshot 2026-06-18 111509,0
-Screenshot 2026-06-18 111541.png=@Screenshot 2026-06-18 111541,0
-Screenshot 2026-06-18 111615.png=@Screenshot 2026-06-18 111615,0
-Screenshot 2026-06-18 111646.png=@Screenshot 2026-06-18 111646,0
+ <img width="1328" height="628" alt="Screenshot 2026-06-18 110755" src="https://github.com/user-attachments/assets/b32bbf77-0c12-4c32-bad3-da5c2cf1282a" />
+ <img width="1324" height="628" alt="Screenshot 2026-06-18 111509" src="https://github.com/user-attachments/assets/0186e9f0-eda7-4197-85b8-e1649002b436" />
+<img width="1331" height="622" alt="Screenshot 2026-06-18 111615" src="https://github.com/user-attachments/assets/249b9c4d-ddb2-4814-bdde-a90b81447b51" />
+<img width="1304" height="635" alt="Screenshot 2026-06-18 111541" src="https://github.com/user-attachments/assets/0aed8d02-74d9-4d18-ae50-c1d01866ed0e" />
+<img width="1337" height="628" alt="Screenshot 2026-06-18 111646" src="https://github.com/user-attachments/assets/f333ac30-cb92-4bda-87da-ec5c64e0885d" />
+
+
+
 
 ## References
 - Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. Indianapolis, IN: John Wiley & Sons.
