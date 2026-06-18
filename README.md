@@ -64,7 +64,7 @@ This project is a static website for **FreshMart Local Grocery Store**. It provi
   - `images/` (images, logo, product imagery)
   - `media/` (videos)
   - `fonts/` (fonts, if used)
-
+## screenshots
   ![Projectscheenshot]([LocalizedFileNames]
 Screenshot 2026-06-18 110755.png=@Screenshot 2026-06-18 110755,0
 Screenshot 2026-06-18 111509.png=@Screenshot 2026-06-18 111509,0
