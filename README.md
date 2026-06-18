@@ -65,6 +65,13 @@ This project is a static website for **FreshMart Local Grocery Store**. It provi
   - `media/` (videos)
   - `fonts/` (fonts, if used)
 
+  ![Projectscheenshot]([LocalizedFileNames]
+Screenshot 2026-06-18 110755.png=@Screenshot 2026-06-18 110755,0
+Screenshot 2026-06-18 111509.png=@Screenshot 2026-06-18 111509,0
+Screenshot 2026-06-18 111541.png=@Screenshot 2026-06-18 111541,0
+Screenshot 2026-06-18 111615.png=@Screenshot 2026-06-18 111615,0
+Screenshot 2026-06-18 111646.png=@Screenshot 2026-06-18 111646,0
+
 ## References
 - Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. Indianapolis, IN: John Wiley & Sons.
 - Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design for the Web and Beyond* (2nd ed.). Berkeley, CA: New Riders.
