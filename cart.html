@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.0/css/all.min.css">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cart</title>
+  <link rel="icon" type="image/x-icon" href="assets/images/screenshot.png">
+  <link rel="stylesheet" href="assets/css/style.css">
+  <style>
+    .cart-wrap{
+      width: var(--container);
+      margin: 40px auto 60px;
+      background: rgba(255,255,255,0.95);
+      border: 1px solid rgba(255,255,255,0.35);
+      border-radius: 16px;
+      padding: 24px;
+      box-shadow: 0 10px 25px rgba(0,0,0,0.18);
+    }
+    .cart-title{ text-align:center; margin-bottom:18px; }
+    .cart-empty{ text-align:center; padding: 20px; color:#333; }
+    .cart-table{
+      width:100%;
+      border-collapse: collapse;
+      margin-top: 10px;
+    }
+    .cart-table th, .cart-table td{
+      text-align:left;
+      padding: 10px 8px;
+      border-bottom: 1px solid rgba(0,0,0,0.08);
+      vertical-align: top;
+    }
+    .cart-actions{
+      display:flex;
+      justify-content: space-between;
+      align-items:center;
+      gap:12px;
+      margin-top: 16px;
+      flex-wrap: wrap;
+    }
+    .cart-actions button{
+      border-radius:10px;
+    }
+    .cart-actions .btn-secondary{
+      background:#555;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <div class="navbar">
+      <div class="top-bar">
+        <div class="brand">
+          <img src="assets/images/newlogo2.png" alt="logo" class="logo" height="50px" width="50px">
+          <h2 class="logo">FRESHMART SHOP</h2>
+        </div>
+        <div class="nav-links">
+          <nav>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="products.html">Products</a></li>
+              <li><a href="contact.html">Contact</a></li>
+              <li><a href="about.html">About Us</a></li>
+              <li><a href="enquiry.html">Enquire</a></li>
+
+            </ul>
+          </nav>
+        </div>
+        <div class="cart">
+          <a href="cart.html" aria-label="Cart">
+            <i class="fa-solid fa-cart-arrow-down" style="color: rgb(255, 255, 255);"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <section class="cart-wrap">
+      <h1 class="cart-title">Your Cart</h1>
+      <div id="cartEmpty" class="cart-empty" style="display:none;">Your cart is empty.</div>
+      <div id="cartContent" style="display:none;">
+        <table class="cart-table">
+          <thead>
+            <tr>
+              <th style="width:55%">Item</th>
+              <th style="width:20%">Price</th>
+              <th style="width:25%">Added</th>
+            </tr>
+          </thead>
+          <tbody id="cartRows"></tbody>
+        </table>
+
+        <div style="margin-top:14px; text-align:right; font-weight:800; color:#1f1f1f;">
+          Total: <span id="cartTotal">0</span>
+        </div>
+
+        <div class="cart-actions">
+          <button id="clearCartBtn" class="btn-secondary" type="button">Clear Cart</button>
+          <a href="products.html" style="text-decoration:none;"><button type="button">Continue Shopping</button></a>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <script src="assets/js/script.js" defer></script>
+</body>
+</html>
+
