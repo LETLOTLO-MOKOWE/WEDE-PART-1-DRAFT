@@ -74,8 +74,6 @@ This project is a static website for **FreshMart Local Grocery Store**. It provi
 
 
 
-
-
 ## References
 - Duckett, J. (2011). *HTML and CSS: Design and Build Websites*. Indianapolis, IN: John Wiley & Sons.
 - Garrett, J. J. (2011). *The Elements of User Experience: User-Centered Design for the Web and Beyond* (2nd ed.). Berkeley, CA: New Riders.
